@@ -1,0 +1,22 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.col1 {
+    text-align: left; !important;
+}
+.Dollar {
+    margin-left: 13px;
+}
+.cent {
+    margin-left: 57px;
+}

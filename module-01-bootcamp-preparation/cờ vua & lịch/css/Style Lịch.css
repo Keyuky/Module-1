@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.VNM {
+    padding: 5px 5px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.luna {
+    font-size:10px;
+    position: absolute;
+    margin-top: 15px;
+
+}
+td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+h1 {
+    color: blue;
+    text-align: center;
+}
+.chunhat {
+    border-collapse: collapse;
+    border: 1px solid white;
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+}
+.thu7 {
+    border-collapse: collapse;
+    border: 1px solid white;
+    background-color: blue;
+    color: white;
+}
+.trongtuan {
+    border-collapse: collapse;
+    border: 1px solid white;
+    background-color: orange;
+    color: white;
+}
+.sun {
+    color: red;
+}
+.sat {
+    color: blue;
+}

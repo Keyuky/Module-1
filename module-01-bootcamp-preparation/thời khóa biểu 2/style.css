@@ -1,0 +1,27 @@
+body {
+    border: blue;
+    margin: 10px 100px 100px;
+}
+h1 {
+    text-align: center;
+}
+.left {
+    margin-left: 10px;
+    color: blue;
+    text-align: left;
+    !important;
+}
+.right {
+    margin-left: 750px;
+    color: blue;
+    text-align: left;
+    !important;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 5px;
+    border: 1px solid black;
+}

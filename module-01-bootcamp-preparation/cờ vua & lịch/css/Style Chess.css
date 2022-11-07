@@ -1,0 +1,19 @@
+body{
+    background-color: orange;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 600px;
+}
+
+.White{
+    background-color: #fff;
+}
+
+.Black{
+    background-color: #000000;
+}
