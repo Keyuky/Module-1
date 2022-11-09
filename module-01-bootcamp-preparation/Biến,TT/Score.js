@@ -1,12 +1,12 @@
-L = prompt('Nhập điểm Vặt Lý');
+L = prompt('Nhập điểm Vật Lý');
 T = prompt('Nhập điểm Toán');
 H = prompt('Nhập điểm Hóa');
 S = prompt('Nhập điểm Sinh Học');
 Ly = parseInt(L);
-Toan = parseInt(L);
-Hoa = parseInt(L);
-Sinh = parseInt(L);
+Toan = parseInt(T);
+Hoa = parseInt(H);
+Sinh = parseInt(S);
 TrungBinh = (Ly + Toan + Hoa + Sinh)/4;
 Tong = Ly + Toan + Hoa + Sinh;
-document.write('Điểm Trung Bình của bạn là: ' + TrungBinh +"<br>");
+document.write('Điểm Trung Bình của bạn là: ' + TrungBinh + "<br>");
 document.write('Điểm Tổng của bạn là: ' + Tong);

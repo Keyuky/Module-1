@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VND-USD</title>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <th><label for="Amount">Amount</label></th>
+            <th><label>From Currency</label></th>
+            <th><label>To Currency</label></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="text" id="Amount"></td>
+            <td>
+                <select id="From" onchange ='changeValue(this);'>
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <select id="To">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td><button onclick="ChangeMoney()">Convert</button> </td>
+<!--            <input type="button" value="Convert" onclick = 'ChangeMoney()'>-->
+        </tr>
+    </table>
+
+
+    <br>
+<p id="Result"></p>
+    <script src="money.js"></script>
+
+</body>
+</html>
