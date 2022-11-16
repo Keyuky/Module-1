@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Keyuky Translated</h1>
+    <label for="string">Enter The Word</label>
+    <input type="text" id="string">
+    <button onclick="translated()">Translated</button>
+    <p id="result"></p>
+    <script>
+        function translated() {
+            let english = ["I love you", "Yes", "Me too", "No", "Ok"];
+            let vietnamese = ["Tôi yêu bạn", "có", "Tôi cũng vậy", "Không", "Đồng ý"];
+            let string = document.getElementById("string").value;
+            console.log(string);
+            for (let i = 0;i < english.length;i++) {
+                if ( string == english[i]) {
+                    result = vietnamese[i]
+                }
+            }
+            alert(result)
+        }
+    </script>
+</body>
+</html>
