@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="Start()">Start</button>
+    <script>
+        function Start(){
+            let n = +prompt("Số bạn muốn đoán trong khoảng lớn nhất là bao nhiêu?");
+            let nr = Math.floor(Math.random() * n);
+            console.log(nr);
+            let nc = +prompt ("Nhập số bạn đoán");
+            let count = 0;
+            while (nc !== nr) {
+                count++;
+                if (count == 4) {
+                    alert("Bạn hết số lần đoán")
+                    break;
+                }
+                if (nc < nr) {
+                    alert("Số bạn đoán bé hơn");
+                } else {
+                    alert ("Số bạn đoán lớn hơn")
+                }
+                if(nc == nr){
+                    document.write("Bạn đã đoán đúng số. Chúc mừng bạn!")   
+                }   
+                nc = prompt ("Nhập số bạn đoán");
+            }
+            } 
+    </script>
+</body>
+</html>
